@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="test_com.dati3ng.datxe.pop">
+    package="com.dating.date.pop">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <application
-        android:name=".App"
+        android:name="com.dating.date.pop.App"
         android:allowBackup="true"
         android:icon="@drawable/ic_transparent"
         android:label=""
@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name="SplashActivity"
+            android:name="com.dating.date.pop.SplashActivity"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
@@ -30,25 +30,25 @@
         </activity>
 
         <activity
-            android:name="MainActivity"
+            android:name="com.dating.date.pop.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="MainWebActivity"
+            android:name="com.dating.date.pop.MainWebActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="PolicyActivity"
+            android:name="com.dating.date.pop.PolicyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Banner"
+            android:name="com.dating.date.pop.Banner"
             android:autoRemoveFromRecents="true"
             android:excludeFromRecents="true"
             android:icon="@drawable/ic_transparent"
             android:label=""
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <service
-            android:name=".OneSignalBackground"
+            android:name="com.dating.date.pop.OneSignalBackground"
             android:permission="android.permission.BIND_JOB_SERVICE"
             android:exported="false">
             <intent-filter>

@@ -11,7 +11,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "test_com.dati3ng.datxe.pop"
+        applicationId "com.dating.date.pop"
         manifestPlaceholders = [
                 onesignal_app_id               : 'a56afd15-c644-45db-a4b1-3d8aa9a768c2',
                 // Project number pulled from dashboard, local value is ignored.
