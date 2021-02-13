@@ -13,7 +13,7 @@
         android:label=""
         android:roundIcon="@drawable/ic_transparent"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MaterialComponents"
+        android:theme="@style/Theme.MeetupWithcudeGerl"
         android:usesCleartextTraffic="true">
 
         <activity
